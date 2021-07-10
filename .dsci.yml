@@ -1,0 +1,12 @@
+jobs:
+  - name: catting
+    env:
+      CC: gcc
+    cmds:
+      - echo ${CC}
+      - cat test.txt
+  - name: echoing
+    env:
+      CC: gcc
+    cmds:
+      - echo ${CC}
