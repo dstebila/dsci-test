@@ -10,3 +10,6 @@ jobs:
       CC: gcc
     cmds:
       - echo ${CC}
+  - name: touching
+    cmds:
+      - touch /Users/dstebila/test.txt
